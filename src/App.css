@@ -1,0 +1,104 @@
+body {
+  background-color: #f4f2ee;
+}
+.hover-gray:hover {
+  background: radial-gradient(
+    circle,
+    rgba(238, 238, 238, 1) 0%,
+    rgba(238, 238, 238, 0.5) 92%,
+    rgba(238, 238, 238, 0.05) 98%
+  );
+  cursor: pointer;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+#navbarScrollingDropdown {
+  padding-block: 0px;
+}
+
+.icon-edit:hover {
+  color: #dac03f !important;
+  cursor: pointer;
+}
+
+.icon-delete:hover {
+  color: #ee4c3f !important;
+  cursor: pointer;
+}
+.icon-post:hover {
+  scale: 1.2;
+  color: #0d6efd !important;
+  cursor: pointer;
+}
+.icon-delete-post:hover {
+  transition: all 0.3s;
+  color: #ee4c3f !important;
+  cursor: pointer;
+  scale: 1.2;
+}
+.icon-media-post:hover {
+  transition: all 0.3s;
+  color: rgb(18, 188, 18) !important;
+  cursor: pointer;
+  scale: 1.2;
+}
+.icon-put-post:hover {
+  transition: all 0.3s;
+  color: #0d6efd !important;
+  cursor: pointer;
+  scale: 1.2;
+}
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: all 300ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transition: all 300ms;
+}
+
+.job-hover:hover {
+  color: #0d6efd !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.dvh-100 {
+  height: 90dvh;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.form-control:focus {
+  border-color: #ced4da !important;
+  box-shadow: none !important;
+  background: radial-gradient(
+    circle,
+    rgba(215, 235, 242, 1) 15%,
+    rgba(225, 235, 242, 1) 70%,
+    rgba(236, 239, 242, 1) 100%
+  ) !important;
+}
+
+.max-vh-50 {
+  max-height: 50vh;
+}
+
+/* SCROLLBAR Commenti */
+
+.comments-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #dfe7f5 #f8faff;
+}
